@@ -28,13 +28,3 @@ export const getPokemons = async (limit = 20, offset = 0) => {
 };
 
 
-//Detalles completos de un Pokémon por nombre
-export const getPokemonDetails = async (name) => {
-  try {
-    const response = await axios.get(`${BASE_URL}/pokemon/${name}`);
-    return response.data;
-  } catch (error) {
-    console.error("Error al obtener detalles del Pokémon:", error);
-    return null;
-  }
-};

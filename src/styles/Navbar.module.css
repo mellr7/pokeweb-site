@@ -3,7 +3,12 @@
   display: flex;
   justify-content: flex-end; 
   padding: 24px;
-  background-color: #173c72;
+  /*background-color: #173c72;*/
+  background-color: #bb0303;
+  /* Orden: top-left | top-right | bottom-right | bottom-left 
+  border-radius: 0px 0px 20% 20%;*/
+  clip-path: ellipse(100% 70% at 46% 20%);
+
   
 }
 

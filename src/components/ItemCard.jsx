@@ -15,7 +15,6 @@ const ItemCard = ({ pokemon }) => {
       <button
         className={`${styles.button} ${isFavorite ? styles.buttonFavorite : styles.buttonNormal}`}
         onClick={() => toggleFavorite(pokemon)}
-        style={{ background: "none", border: "none", cursor: "pointer" }}
       >
         {isFavorite ? (
           <AiFillHeart color="red" size={30} alt="Añadido a favoritos"/>

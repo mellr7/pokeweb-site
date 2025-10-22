@@ -21,12 +21,15 @@ export const FavoritesProvider = ({ children }) => {
 
   // Función para agregar/quitar favorito
   const toggleFavorite = (pokemon) => {
+    //Clic a toggle en card
     const exists = favorites.find((p) => p.name === pokemon.name);
     if (exists) {
-      // Si ya está, quitar
+      // Si ya está en favs, se pueda quitar
+      //(de ambas vistas inicio - favs)
       setFavorites(favorites.filter((p) => p.name !== pokemon.name));
     } else {
-      // Si no está, agregar
+      // Si no está en favs, se pueda agregar
+      //Crea un nuevo arreglo actualizado
       setFavorites([...favorites, pokemon]);
     }
   };

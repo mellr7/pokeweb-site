@@ -9,11 +9,11 @@
   margin: 1rem;
   background-color: #fff;
 }
-/*
+
 .cardFavorite {
-  background-color: #ffebee;
+  background-color: #fbedef;
 }
-*/
+
 .img {
   width: 140px;
   height: 140px;
@@ -29,9 +29,10 @@
 }
 
 .buttonFavorite {
-  background-color: #e53935;
+  background-color: #fbedef;
 }
 
 .buttonNormal {
   background-color: #ffffff;
 }
+
