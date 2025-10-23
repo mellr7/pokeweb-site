@@ -1,16 +1,70 @@
-# React + Vite
+# ★ PokeWeb - site ★ 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación web para explorar y coleccionar Pokémon de forma interactiva.
+_________________
 
-Currently, two official plugins are available:
+### ۵ Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+PokeWeb es una app desarrollada en React y Vite que permite a los usuarios:
 
-## React Compiler
+- Explorar la lista completa de Pokémon.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Marca Pokémon como favoritos para guardarlos en tu lista personal.
+______________
 
-## Expanding the ESLint configuration
+### ۵ Instalación --->
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Clona el repositorio e instala las dependencias:
+
+```
+git clone https://github.com/mellr7/pokeweb-site.git
+cd pokeweb-site
+npm install
+npm run dev
+```
+
+**✰Abre: http://localhost:5173 en tu navegador.✰**
+
+____________________
+
+### 🌐 Tecnologías
+
+- React + Vite – Framework y entorno de desarrollo rápido.
+
+- React Router DOM – Manejo de rutas y navegación entre vistas.
+
+- JavaScript (ES6+) – Lenguaje principal del proyecto.
+
+- CSS – Estilos personalizados de la aplicación.
+
+- Axios – Consumo de la API de Pokémon.
+
+- Context API (FavoritesContext, ScoreContext) – Manejo del estado global.
+
+____________________
+
+### ۵ Estructura del Proyecto
+src/
+│── components/      # Componentes reutilizables 
+│── context/         # Contextos para manejo de estado global
+│── pages/           # Vistas principales
+│── api/             # Funciones para consumir la API de Pokémon
+│── App.jsx
+│── main.jsx
+public/
+│── index.html
+_______________________
+
+### ۵ Funcionalidades
+
+- ItemCard: muestra cada Pokémon.
+
+- FavoritesContext: permite agregar o remover Pokémon de favoritos.
+
+- Axios: maneja las llamadas a la API de Pokémon con async/await.
+
+______________
+
+۵ Licencia
+
+MIT License © 2025
