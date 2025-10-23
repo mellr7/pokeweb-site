@@ -45,14 +45,23 @@ ____________________
 
 ### ۵ Estructura del Proyecto
 src/
+
 │── components/      # Componentes reutilizables 
+
 │── context/         # Contextos para manejo de estado global
+
 │── pages/           # Vistas principales
+
 │── api/             # Funciones para consumir la API de Pokémon
+
 │── App.jsx
+
 │── main.jsx
+
 public/
+
 │── index.html
+
 _______________________
 
 ### ۵ Funcionalidades
